@@ -1,0 +1,42 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" />
+    <title>Hangman</title>
+  </head>
+
+<body>
+    <div class="container">
+        <!-- cover section -->
+        <div class="game">
+            <h1 class="display">Hangman (kinda)</h1>
+            <p class="lead">Rule: You will guess word</p>
+            <hr class="winlose"id="winlose"></hr>
+        </div>
+        <!-- main section -->
+        <div class="row">
+            <!-- game picture, if player win display guessed picture -->
+            <div class="col-md-6">
+            <img id="gamePic" src="Images/Sports-balls.jpg" alt="sports-pic"> 
+            </div>
+
+            <div class="col-md-6 gameField">
+                <h2 class="results">Press any key to get started!</h2>
+                <h2>Current Word: </h2>
+                <div class="results" id="rightGuess"></div>
+                <h2>Number of Guesses Remaining: </h2>
+                <div class="results" id="attempts"></div>
+                <h2>Letters Already Guessed: </h2>
+                <div class="results" id="wrongGuess"></div>
+                <h2>Wins: </h2>
+                <div class="results" id="wins"></div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
