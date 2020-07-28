@@ -5,7 +5,6 @@ let game = function () {
 
 let newGame = function () {
   //guess word list stored in array
-  //Going to add more (once I think of them)
   let wordsArray = [
     "basketball",
     "soccer",
